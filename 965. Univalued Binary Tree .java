@@ -18,4 +18,17 @@ class Solution {
         left = (root.left==null || root.left.val==root.val && isUnivalTree(root.left));
         return left && right;
     }
+
+    public solution(TreeNode root){
+
+    }
+
+    public DFS(){
+    		if(node!=null){
+    			vals.add(node.val){
+    				dfs(node.right);
+    				dfs(node.left);
+    			}
+    	 }
+    }
 }
