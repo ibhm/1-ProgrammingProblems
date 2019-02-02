@@ -27,6 +27,7 @@ class Solution:
         if(abs(self.maxdepth(root.left)-self.maxdepth(root.right))>1):
             return False
         ##ensures that there is a left subtree and a right subtree that is balanced as it recursively checks left and right subtrees
+        ##if left subtree itself is unbalanced this will return false and if right subtree itself is unbalanced, false as well
         return self.isBalanced(root.left) and self.isBalanced(root.right)
     
             
