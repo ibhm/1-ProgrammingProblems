@@ -1,4 +1,6 @@
 class Solution {
+
+    //returns the words fizz at multiples of 3, buzz at  multiples of 5, and multiples  at 3 and 5
     public List<String> fizzBuzz(int n) {
         
         List<String> array = new ArrayList<>();
